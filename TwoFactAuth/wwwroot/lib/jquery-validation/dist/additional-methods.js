@@ -25,11 +25,11 @@
 
 	$.validator.addMethod("maxWords", function(value, element, params) {
 		return this.optional(element) || stripHtml(value).match(/\b\w+\b/g).length <= params;
-	}, $.validator.format("Please enter {0} words or less."));
+    }, $.validator.format("Ingrese {0} palabras o menos."));
 
 	$.validator.addMethod("minWords", function(value, element, params) {
 		return this.optional(element) || stripHtml(value).match(/\b\w+\b/g).length >= params;
-	}, $.validator.format("Please enter at least {0} words."));
+    }, $.validator.format("Ingrese al menos { 0} palabras."));
 
 	$.validator.addMethod("rangeWords", function(value, element, params) {
 		var valueStripped = stripHtml(value),
@@ -71,11 +71,11 @@ $.validator.addMethod("accept", function(value, element, param) {
 	// Either return true because we've validated each file, or because the
 	// browser does not support element.files and the FileList feature
 	return true;
-}, $.validator.format("Please enter a value with a valid mimetype."));
+}, $.validator.format("Ingrese un valor con un tipo MIME válido."));
 
 $.validator.addMethod("alphanumeric", function(value, element) {
 	return this.optional(element) || /^\w+$/i.test(value);
-}, "Letters, numbers, and underscores only please");
+}, "Solo letras, números y guiones bajos, por favor");
 
 /*
  * Dutch bank account numbers (not 'giro' numbers) have 9 digits

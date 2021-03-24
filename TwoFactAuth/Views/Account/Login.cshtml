@@ -40,10 +40,12 @@
                 </div>
                 <div class="form-group">
                     <p>
-                        <a asp-action="ForgotPassword">Forgot your password?</a>
+                        <a asp-action="ForgotPassword">
+                            ¿Olvidaste tu contraseña?
+                        </a>
                     </p>
                     <p>
-                        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Register as a new user?</a>
+                        <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">¿Registrarse como nuevo usuario?</a>
                     </p>
                 </div>
             </form>
@@ -51,7 +53,7 @@
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h4>Use another service to log in.</h4>
+            <h4>Utilice otro servicio para iniciar sesión.</h4>
             <hr />
             @{
                 var loginProviders = (await SignInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -59,8 +61,9 @@
                 {
                     <div>
                         <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
+
+                            No hay servicios de autenticación externos configurados. Ver <a href="https://go.microsoft.com/fwlink/?LinkID=532715">este articulo</a>
+                            para obtener detalles sobre la configuración de esta aplicación ASP.NET para admitir el inicio de sesión a través de servicios externos.
                         </p>
                     </div>
                 }
@@ -71,7 +74,7 @@
                             <p>
                                 @foreach (var provider in loginProviders)
                                 {
-                                    <button type="submit" class="btn btn-default" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.Name</button>
+                                    <button type="submit" class="btn btn-default" name="provider" value="@provider.Name" title="Inicie sesión con su @provider.DisplayName cuenta">@provider.Name</button>
                                 }
                             </p>
                         </div>

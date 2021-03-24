@@ -10,3 +10,15 @@ C:\Users\ankit\source\repos\TwoFactAuth\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoF
 C:\Users\ankit\source\repos\TwoFactAuth\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.AssemblyInfo.cs
 C:\Users\ankit\source\repos\TwoFactAuth\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.dll
 C:\Users\ankit\source\repos\TwoFactAuth\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.pdb
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.deps.json
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.runtimeconfig.json
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.runtimeconfig.dev.json
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.dll
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.pdb
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.csprojAssemblyReference.cache
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.AssemblyInfoInputs.cache
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.AssemblyInfo.cs
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.dll
+C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.pdb
