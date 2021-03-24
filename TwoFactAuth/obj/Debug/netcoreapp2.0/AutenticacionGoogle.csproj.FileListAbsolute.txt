@@ -1,0 +1,8 @@
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\bin\Debug\netcoreapp2.0\AutenticacionGoogle.deps.json
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\bin\Debug\netcoreapp2.0\AutenticacionGoogle.runtimeconfig.json
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\bin\Debug\netcoreapp2.0\AutenticacionGoogle.runtimeconfig.dev.json
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\bin\Debug\netcoreapp2.0\AutenticacionGoogle.dll
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\obj\Debug\netcoreapp2.0\AutenticacionGoogle.csprojAssemblyReference.cache
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\obj\Debug\netcoreapp2.0\AutenticacionGoogle.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\obj\Debug\netcoreapp2.0\AutenticacionGoogle.AssemblyInfoInputs.cache
+C:\Users\desarrollo\Desktop\ASPCore.Two-Factor-Authentication\TwoFactAuth\obj\Debug\netcoreapp2.0\AutenticacionGoogle.AssemblyInfo.cs
