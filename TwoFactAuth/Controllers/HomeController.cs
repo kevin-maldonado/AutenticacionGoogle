@@ -17,14 +17,14 @@ namespace TwoFactAuth.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "La página de descripción de su aplicación.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Tu página de contacto.";
 
             return View();
         }

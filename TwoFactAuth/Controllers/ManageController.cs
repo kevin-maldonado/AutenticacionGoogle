@@ -52,7 +52,7 @@ namespace TwoFactAuth.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                throw new ApplicationException($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                throw new ApplicationException($"No se puede cargar el usuario con ID '{_userManager.GetUserId(User)}'.");
             }
 
             var model = new IndexViewModel
@@ -88,7 +88,7 @@ namespace TwoFactAuth.Controllers
                 var setEmailResult = await _userManager.SetEmailAsync(user, model.Email);
                 if (!setEmailResult.Succeeded)
                 {
-                    throw new ApplicationException($"Unexpected error occurred setting email for user with ID '{user.Id}'.");
+                    throw new ApplicationException($"Se produjo un error inesperado al configurar el correo electrónico para el usuario con ID '{user.Id}'.");
                 }
             }
 
@@ -102,7 +102,7 @@ namespace TwoFactAuth.Controllers
                 }
             }
 
-            StatusMessage = "Your profile has been updated";
+            StatusMessage = "Tu perfil ha sido actualizado";
             return RedirectToAction(nameof(Index));
         }
 
@@ -126,7 +126,7 @@ namespace TwoFactAuth.Controllers
             var email = user.Email;
             await _emailSender.SendEmailConfirmationAsync(email, callbackUrl);
 
-            StatusMessage = "Verification email sent. Please check your email.";
+            StatusMessage = "El mensaje de verificación ha sido enviado. Por favor revise su correo electrónico.";
             return RedirectToAction(nameof(Index));
         }
 
@@ -172,8 +172,8 @@ namespace TwoFactAuth.Controllers
             }
 
             await _signInManager.SignInAsync(user, isPersistent: false);
-            _logger.LogInformation("User changed their password successfully.");
-            StatusMessage = "Your password has been changed.";
+            _logger.LogInformation("El usuario cambió su contraseña correctamente.");
+            StatusMessage = "Tu contraseña ha sido cambiada.";
 
             return RedirectToAction(nameof(ChangePassword));
         }
@@ -282,7 +282,7 @@ namespace TwoFactAuth.Controllers
             // Clear the existing external cookie to ensure a clean login process
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
 
-            StatusMessage = "The external login was added.";
+            StatusMessage = "Se agregó el inicio de sesión externo.";
             return RedirectToAction(nameof(ExternalLogins));
         }
 
@@ -402,13 +402,13 @@ namespace TwoFactAuth.Controllers
 
             if (!is2faTokenValid)
             {
-                ModelState.AddModelError("Code", "Verification code is invalid.");
+                ModelState.AddModelError("Code", "El código de verificación no es válido.");
                 await LoadSharedKeyAndQrCodeUriAsync(user, model);
                 return View(model);
             }
 
             await _userManager.SetTwoFactorEnabledAsync(user, true);
-            _logger.LogInformation("User with ID {UserId} has enabled 2FA with an authenticator app.", user.Id);
+            _logger.LogInformation("El usuario con ID {UserId} ha habilitado 2FA con una aplicación de autenticación.", user.Id);
             var recoveryCodes = await _userManager.GenerateNewTwoFactorRecoveryCodesAsync(user, 10);
             TempData[RecoveryCodesKey] = recoveryCodes.ToArray();
 
@@ -446,7 +446,7 @@ namespace TwoFactAuth.Controllers
 
             await _userManager.SetTwoFactorEnabledAsync(user, false);
             await _userManager.ResetAuthenticatorKeyAsync(user);
-            _logger.LogInformation("User with id '{UserId}' has reset their authentication app key.", user.Id);
+            _logger.LogInformation("El usuario con ID '{UserId}' ha restablecido su clave de aplicación de autenticación.", user.Id);
 
             return RedirectToAction(nameof(EnableAuthenticator));
         }
@@ -484,7 +484,7 @@ namespace TwoFactAuth.Controllers
             }
 
             var recoveryCodes = await _userManager.GenerateNewTwoFactorRecoveryCodesAsync(user, 10);
-            _logger.LogInformation("User with ID {UserId} has generated new 2FA recovery codes.", user.Id);
+            _logger.LogInformation("El usuario con ID {UserId} ha generado nuevos códigos de recuperación 2FA.", user.Id);
 
             var model = new ShowRecoveryCodesViewModel { RecoveryCodes = recoveryCodes.ToArray() };
 

@@ -32,7 +32,13 @@ namespace TwoFactAuth
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
+            //email
+            //services.AddDefaultIdentity<IdentityUser>(config =>
+            //{
+            //    config.SignIn.RequiereConfirmedEmail = true;
+            //})
+            //.AddEntityFrameworkStores<ApplicationDbContext>();
+            
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
