@@ -10,8 +10,7 @@ namespace TwoFactAuth.Models.AccountViewModels
     {
         [EmailAddress]
         [Required(ErrorMessage = "Este campo es requerido.")]
-        [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*",
-            ErrorMessage = "Dirección de Correo electrónico incorrecta.")]
+        [RegularExpression(@"^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-‌​]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$", ErrorMessage = "El correo no es valido")]
         [StringLength(100, ErrorMessage = "Longitud máxima 100")]
         [DataType(DataType.EmailAddress)]
         [Display(Name = "Email")]

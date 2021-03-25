@@ -18,19 +18,19 @@
     {
         <div class="alert alert-danger">
             <strong>Te queda 1 código de recuperación.</strong>
-            <p>Usted puede <a asp-action="GenerateRecoveryCodes">generar un nuevo conjunto de códigos de recuperación</a>.</p>
+            <p>Usted puede <a asp-action="GenerateRecoveryCodes">Generar un nuevo conjunto de codigos de recuperación</a>.</p>
         </div>
     }
     else if (Model.RecoveryCodesLeft <= 3)
     {
         <div class="alert alert-warning">
             <strong>Tú tienes @Model.RecoveryCodesLeft códigos de recuperación restantes.</strong>
-            <p>Debería <a asp-action="GenerateRecoveryCodes">generar un nuevo conjunto de códigos de recuperación</a>.</p>
+            <p>Debería <a asp-action="GenerateRecoveryCodes">generar un nuevo conjunto de codigos de recuperacion</a>.</p>
         </div>
     }
 
     <a asp-action="Disable2faWarning" class="btn btn-default">Disable 2FA</a>
-    <a asp-action="GenerateRecoveryCodesWarning" class="btn btn-default">Restablecer códigos de recuperación</a>
+    <a asp-action="GenerateRecoveryCodesWarning" class="btn btn-default">Restablecer codigos de recuperacion</a>
 }
 
     <h5>Aplicacion de autenticacion</h5>
@@ -40,7 +40,7 @@
 }
 else
 {
-    <a asp-action="EnableAuthenticator" class="btn btn-default">Configurar la aplicación de autenticacion</a>
+    <a asp-action="EnableAuthenticator" class="btn btn-default">Configurar la aplicacion de autenticacion</a>
     <a asp-action="ResetAuthenticatorWarning" class="btn btn-default">Restablecer la clave del autenticador</a>
 }
 
