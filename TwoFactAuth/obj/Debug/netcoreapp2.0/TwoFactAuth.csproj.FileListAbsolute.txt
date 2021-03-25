@@ -22,3 +22,15 @@ C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp
 C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.dll
 C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.pdb
 C:\Users\desarrollo\Desktop\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.csprojAssemblyReference.cache
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.deps.json
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.runtimeconfig.json
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.runtimeconfig.dev.json
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.dll
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\bin\Debug\netcoreapp2.0\TwoFactAuth.pdb
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.csprojAssemblyReference.cache
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.AssemblyInfoInputs.cache
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.AssemblyInfo.cs
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.dll
+C:\Users\kevin\OneDrive\Escritorio\AutenticacionGoogle\TwoFactAuth\obj\Debug\netcoreapp2.0\TwoFactAuth.pdb

@@ -13124,23 +13124,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\desarrollo\\.nuget\\packages\\": {},
+    "C:\\Users\\kevin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\desarrollo\\Desktop\\AutenticacionGoogle\\TwoFactAuth\\TwoFactAuth.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\OneDrive\\Escritorio\\AutenticacionGoogle\\TwoFactAuth\\TwoFactAuth.csproj",
       "projectName": "TwoFactAuth",
-      "projectPath": "C:\\Users\\desarrollo\\Desktop\\AutenticacionGoogle\\TwoFactAuth\\TwoFactAuth.csproj",
-      "packagesPath": "C:\\Users\\desarrollo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\desarrollo\\Desktop\\AutenticacionGoogle\\TwoFactAuth\\obj\\",
+      "projectPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\AutenticacionGoogle\\TwoFactAuth\\TwoFactAuth.csproj",
+      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kevin\\OneDrive\\Escritorio\\AutenticacionGoogle\\TwoFactAuth\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\desarrollo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
